@@ -28,6 +28,12 @@ brew install envoy # Or platform-specific
 # Start envoy
 envoy -c ./envoy.yaml
 
+# Add `protoc` cli
+brew install protobuf # Or specific for platform (read docs)
+
+# Add ts plugin for protoc
+npm install -g ts-proto
+
 # Gen ts files based on .proto
 make gen
 
