@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service HelloService {
+  rpc HelloWho (HelloWhoRq) returns (HelloRs) {}
+}
+
+message HelloWhoRq {
+  string name = 1;
+}
+message HelloRs {
+  string name = 1;
+}
+
+
