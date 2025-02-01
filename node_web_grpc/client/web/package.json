@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "serve -s .",
+    "build": "esbuild app.ts --bundle --outfile=./build/app.js --target=chrome120,firefox120,safari17 --minify",
+    "build:w": "esbuild app.ts --bundle --outfile=./build/app.js --target=chrome120,firefox120,safari17 --minify --watch --sourcemap"
+  },
+  "dependencies": {
+    "@bufbuild/protobuf": "^2.2.3",
+    "nice-grpc-web": "^3.3.5",
+    "serve": "^14.2.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.2"
+  }
+}

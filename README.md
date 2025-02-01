@@ -5,6 +5,7 @@ Set of templates for schema-first architectures
 ## Sets
 
 - simple_node_node_grpc
+- simple_node_web_grpc (made me sad)
 
 ## Prefixes
 
